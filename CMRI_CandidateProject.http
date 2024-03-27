@@ -1,0 +1,10 @@
+@CMRI_CandidateProject_HostAddress = http://localhost:5046
+
+POST {{CMRI_CandidateProject_HostAddress}}/api/CheckInterviews/
+Content-Type: application/json
+
+{
+  "dateOfInterview": "2024-04-02"
+}
+
+###
